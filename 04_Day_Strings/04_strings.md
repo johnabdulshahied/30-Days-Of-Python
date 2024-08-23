@@ -210,7 +210,7 @@ print(f'{a} ** {b} = {a ** b}')
 
 ### Python Strings as Sequences of Characters
 
-Python strings are sequences of characters, and share their basic methods of access with other Python ordered sequences of objects – lists and tuples. The simplest way of extracting single characters from strings (and individual members from any sequence) is to unpack them into corresponding variables.
+Python strings are sequences of characters, and share their basic methods of access with other Python ordered sequences of objects – lists and tuples. The simplest way of extracting single characters from strings (and individual members from any sequence) is to unpack them into corresponding variables. See the example below:
 
 #### Unpacking Characters
 
