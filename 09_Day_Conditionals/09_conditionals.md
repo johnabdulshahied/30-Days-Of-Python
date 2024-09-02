@@ -113,6 +113,8 @@ else:
 
 ### Short Hand
 
+Short Hand for Conditional execution
+
 ```py
 # syntax
 code if condition else code
