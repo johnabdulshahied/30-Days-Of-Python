@@ -171,7 +171,7 @@ for letter in language:
     print(letter)
 
 
-for i in range(len(language)):
+for i in range(len(language)):  # range() function generates a sequence of numbers 
     print(language[i])
 ```
 
