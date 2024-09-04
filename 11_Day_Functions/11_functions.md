@@ -352,7 +352,7 @@ print(sum_all_nums(2, 3, 5)) # 10
 
 ### Default and Arbitrary Number of Parameters in Functions
 
-Default and Arbitrary Number of Parameters in the Same Function.
+Default and arbitrary number of parameters in the same function.
 
 ```py
 def generate_groups (team,*args):
