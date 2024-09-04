@@ -336,7 +336,7 @@ def function_name(*args):
     codes
     codes
 # Calling function
-function_name(param1, param2, param3,..)
+function_name(arg1, arg2, arg3,..)
 ```
 
 **Example:**
@@ -360,6 +360,29 @@ def generate_groups (team,*args):
     for i in args:
         print(i)
 print(generate_groups('Team-1','Asabeneh','Brook','David','Eyob'))
+```
+### Arbitrary Number of Keyworded Arguments
+
+If we want to pass arbitrary number of Keyworded Arguments to our function, we can create a function which can take arbitrary number of keyworded arguments by adding \** before the parameter name.
+
+```py
+# syntax
+# Declaring a function
+def function_name(**kwargs):
+    codes
+    codes
+# Calling function
+function_name(key1='kwarg1', key2='kwarg2', key3='kwarg3',..)
+```
+
+**Example:**
+
+```py
+def greet_me(**kwargs):
+    for key, value in kwargs.items():
+        print("{0} = {1}".format(key, value)) # print key and value
+
+greet_me(first_name="yasoob",second_name="john")
 ```
 
 ### Function as a Parameter of Another Function
